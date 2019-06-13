@@ -1,6 +1,7 @@
 #include <iostream>
 #include <thread>
-#include <wiringPiI2C.h>
+//#include <wiringPiI2C.h>
+#include <linux/i2c-dev.h>
 
 
 using namespace std;
