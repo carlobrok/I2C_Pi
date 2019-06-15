@@ -39,9 +39,7 @@ int main() {
 		////cout << "Zusammengesetzter Wert: " << binary_value << "  " << bitset<16>(binary_value) << endl;
 		std::this_thread::sleep_for(0.075s);
 
-		uint8_t data[3] = {motor, direction, value};
-		cout << (int)data[0] << " " << (int)data[1] << " " << (int)data[2] << endl;
-		i2c_smbus_write_block_data(arduino_fd, 0, 3, data);
+		writeMotor(arduino_fd, motor, direction, value);
 	}
 }
 
