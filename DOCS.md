@@ -4,3 +4,4 @@ https://elinux.org/Interfacing_with_I2C_Devices
 
 #### Bitshifting
 https://stackoverflow.com/questions/15255692/grabbing-n-bits-from-a-byte?answertab=votes#tab-top
+https://stackoverflow.com/questions/4854207/get-a-specific-bit-from-byte
